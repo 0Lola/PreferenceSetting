@@ -1,0 +1,19 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="theme_switch"
+        android:summary="@string/pref_theme"
+        android:title="@string/pref_description_theme" />
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="@string/pref_display_name"
+        android:inputType="textCapWords"
+        android:key="name_text"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_display_name" />
+
+</PreferenceScreen>
